@@ -70,18 +70,10 @@ Explanation:
 Code
 
 def plusOne(digits):
-    for i in range(len(digits) - 1, -1, -1):
-        if digits[i] < 9:
-            digits[i] += 1
+    for i in range(len(digits)):
+        if digits[i] <9:
+            digits[i]+=1
             return digits
-        digits[i] = 0
-return [1] + digits
+        digits[i]=0
+    return [1]+digits
 
-Learning Outcome
-
-✔ Learned how to traverse an array from right to left.
-✔ Understood the concept of carry in addition.
-✔ Practiced handling edge cases such as all digits being 9.
-✔ Improved understanding of array manipulation.
-✔ Solved the problem with an optimized O(n) solution.
-✔ Strengthened problem-solving skills for interview-style questions.
