@@ -68,7 +68,6 @@ Explanation:
 999 + 1 = 1000
 
 Code
-
 def plusOne(digits):
     for i in range(len(digits)):
         if digits[i] <9:
